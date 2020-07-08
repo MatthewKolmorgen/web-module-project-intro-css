@@ -46,13 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* Gener */
 *{
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
-    max-width:100%;
-    border:1px solid grey;
+    border: 1px solid black;
   }
 
 html {
@@ -62,16 +58,17 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 1.5rem;
-    font-family: ;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
 }
+span {
+    font-weight: 700;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: ;
+    font-family: 'Chelsea Market', cursive;
     letter-spacing: 2px;
-}
-
-h1 {
-    font-size: 2.4rem;
 }
 
 a {
@@ -83,23 +80,138 @@ a {
     margin: 0 auto;
 }
 
-nav {
+/* Navigation Bar*/ 
+
+.nav1 {
+    /* width: 50%; */
+    margin: 0rem auto;
     padding: 2rem;
+
 }
 
 nav a {
     padding: 1.5rem;
-    border-radius: 17%;
+    border-radius: 10%;
+    text-align: center;
+    color: white;
+    font-size: .8rem;
+   
 }
 
 .plan {
     background-color: #FF764E;
+    margin-left: 7rem;
 }
 
 .learn {
     background-color: #5ED3EB;
+    margin: 0 10rem;
+
 }
 
 .involved {
     background-color: #FFCD69;
 }
+
+/* Header Left*/
+
+.circle-img {
+    display: inline-block;
+    width: 25%;
+    margin: 0 auto;
+    margin: 3rem 2rem;
+    float: left;
+}
+
+.circle-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Header Content Right */
+
+
+.head-content {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.head-content p {
+    margin: 2rem 0;
+}
+
+/* Main Content */
+
+.main-content {
+    background-color: #DDB9A3;
+    padding: 1rem 2rem;
+    color: white;
+    line-height: 1.8rem;
+    text-align: center;
+    vertical-align: middle;
+    float: right;
+    margin-bottom: 1rem;
+
+}
+
+.main-content p {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+
+
+
+/* Mid Page Content */
+.mid-content {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.fireimg {
+    align-self: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 7rem;
+}
+
+.rvimg {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 7rem;
+}
+
+.mid-content-p {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+
+/* Footer */
+footer {
+    width: 100%;
+    background-image: url(/assets/footer_img.jpg);
+    background-position: center;
+    height: 10vh;
+}
+ 
+.nav2 {
+    background-color: #F9E7DC;
+    width: 100%;
+    margin: 0rem auto;
+    padding: 2rem;
+    
+}
+
+
+
+
